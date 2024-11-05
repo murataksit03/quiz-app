@@ -1,1 +1,2 @@
-# quiz-app
+# HAKKIMDA
+# Herkese merhaba.Ben Murat.Bilecik Şeyh Edabali üniversitesinde bilgisayar mühendisliği öğrencisiyim .Yazılım dünyasına ilk projem ile adımımı attığımı söylemek istiyorum.Kendimi zaman dinamikleri içerisinde geliştireceğimi ve zamana ayak uydurabileceğimi düşünüyorum.Gelecekte daha iyi projelerle bu platformda aktif olmaya çalışacağım.Herkese selamlarımı iletiyorum ve kolaylıklar diliyorum.

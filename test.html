@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Uygulaması</title>
+    <link rel="stylesheet" href="test.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- Başlık ve Logo -->
+    <header>
+      <h1 style="display: flex; align-items: center">
+        <img
+          src="image.png"
+          alt="Logo"
+          style="width: 600px; height: auto; margin-right: 120px"
+        />
+      </h1>
+    </header>
+
+    <!-- Giriş Ekranı -->
+    <div id="login-container" class="container">
+      <h2>SINAV PLATFORMU GİRİŞ EKRANI</h2>
+      <input type="text" id="name" placeholder="Adınız" required />
+      <input type="text" id="surname" placeholder="Soyadınız" required />
+      <input type="text" id="class" placeholder="Sınıfınız" required />
+      <input
+        type="number"
+        id="student-id"
+        placeholder="Öğrenci Numaranız"
+        required
+        maxlength="11"
+        pattern="[1-9][0-9]{10}"
+        title="Öğrenci numarası 0 ile başlamamalı ve 11 haneli olmalıdır."
+      />
+      <button id="start-quiz">SINAVI BAŞLAT</button>
+    </div>
+
+    <!-- Test Ekranı -->
+    <div id="quiz-container" class="container" style="display: none">
+      <h1>Quiz</h1>
+      <div id="quiz"></div>
+      <button id="submit">Cevapları Gönder</button>
+      <div id="results"></div>
+    </div>
+
+    <script src="test.js"></script>
+  </body>
+</html>

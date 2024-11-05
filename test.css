@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #2855ac;
+}
+
+.container {
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.8); /* Şeffaf beyaz arka plan */
+  padding: 70px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ffc900;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3fb0e8;
+}
+
+#quiz-container {
+  display: none;
+}
+
+#results {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.answer-option {
+  display: block; /* Her şıkkı alt alta gösterir */
+  margin: 10px 0; /* Şıklar arasında boşluk oluşturur */
+  padding: 10px; /* Şıkların içeriğini çevreler */
+  border: 1px solid #ccc; /* Kutunun sınırını çizer */
+  border-radius: 5px; /* Kutunun köşelerini yuvarlar */
+  cursor: pointer; /* Üzerine gelindiğinde imleci gösterir */
+  transition: background-color 0.3s; /* Arka plan renginin geçişini yumuşatır */
+}
+
+.answer-option:hover {
+  background-color: rgba(
+    255,
+    200,
+    0,
+    0.2
+  ); /* Üzerine gelindiğinde arka plan rengini değiştirir */
+}
+
+.answer-option input {
+  margin-right: 10px; /* Radyo butonu ile metin arasındaki boşluk */
+}
+
+/* Safari ve Chrome için */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox için */
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox'da spin butonlarını gizle */
+}
